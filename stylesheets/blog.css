@@ -1,0 +1,47 @@
+body {
+	color: red;
+}
+
+h1{
+	font-family: Verdana;
+	font-style: italic;
+	text-align: center;
+	color: white;
+}
+
+h3{
+	font-family: Verdana;
+	font-style: italic;
+	text-align: center;
+	color: white;
+}
+
+#navigation {
+	left: 47%;
+	
+}
+
+#links {
+	margin-left: 240px;
+}
+
+#blog-body {
+	float: right;
+}
+
+.blog-left {
+	float: left;
+}
+
+.blog-left li {
+	padding: 0.1px;
+
+}
+
+
+
+
+
+
+
+
