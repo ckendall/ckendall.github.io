@@ -3,11 +3,9 @@ body{
 }
 
 #header {
-	position: relative;
+
 	background-color: green;
-	text-align: center;
-	padding: 5px 0px;
-	border-top: 20px;
+
 }
 
 h2{
@@ -15,14 +13,12 @@ h2{
 	font-style: italic;
 	text-align: center;
 	color: white;
+	margin-top: -15px
 }
 
 #navigation {
+	text-align: center;
 	
-	position: fixed;
-	left: 50%;
-	margin-top:-20px;
-	margin-left: -130px;	
 }
 
 p {
@@ -31,8 +27,13 @@ p {
 	color: white;
 }
 
+img {
+	border: solid black 3px;
+}
+
 #navigation ul {
-	position: fixed;
+	text-align: center;
+	padding: 5px;
 
 }
 
@@ -45,16 +46,10 @@ p {
 #footer {
 	background-color: green;
 }
-#links {
-	left: 50%;
-	margin-left: 160px;	
-
-}
 
 #links li{
-	border: 1px solid black;
+	border: 3px solid black;
 	display: inline-block;
-	
 }
 
 a {
@@ -66,8 +61,8 @@ a:hover {
 }
 
 #links ul {
-	right: 50%;
-	margin-left: 170px;	
+	text-align: center;
+	padding: 5px;
 }
 
 .left {
