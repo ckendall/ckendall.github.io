@@ -23,13 +23,13 @@ h3{
 }
 
 
-#blog-body {
+p {
 	float: right;
-
-
+	width: 80%;
 }
 
 .blog-left {
+	
 	float: left;
 	width: 10%;
 
