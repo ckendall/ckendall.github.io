@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<head>
+  <title>Cody's code!</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+
+<body>
+  <div id="header">
+        <div id="navigation">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="http://whitendn.github.io/blog/blog-template.html">Blogs</a></li>
+            <li><a href="#"></a>Resume</li>
+            <li><a href="#"></a>Projects</li>
+            <li><a href="../about.html">About me</a></li>
+         </ul>
+        </div>
+      <h2>My Blogs!</h2>
+  </div>
+    <div class="blog-left">
+       <ul>
+            <li><h4><a href="git.html">My First Blog</a></a></h4></li>
+      </ul>
+          
+      <ul>
+            <li><h4><a href="css-concepts.html">CSS concepts</a></h4></li>
+      </ul>
+      <ul>
+            <li><h4><a href="arrays-hashes.html">Arrays vs Hashes</a></h4></li>
+      </ul>
+      <ul>
+            <li><h4><a href="enumerable-methods.html">Enumerables</a></h4></li>
+      </ul>
+      <ul>
+            <li><h4><a href="ruby-classes.html">Ruby Classes</a></h4></li>
+      </ul>
+      <ul>
+            <li><h4><a href="http://www.#.com">Blog 6</a></h4></li>
+      </ul>
+      <ul>
+            <li><h4><a href="http://www.#.com">Blog 7</a></h4></li>
+      </ul>
+    </div>
+
+  <h1>My First Blog</h1>
+  <h2 class ="title">Starting DevBootcamp</h2>
+  <h3>12-3-15</h3>
+
+    <p>
+      Hello all! We are back after a couple days or weeks, they are all starting to blend together on the learning adventure that I have embarked upon. Oh well anyways, what I have been learning this w ek is how to make classes and how to work with classes. I have been learning a lot and ever since I started learning Ruby, classes h ve always seemed a little hard to grasp, but now that I am working  ith them a lot more they are getting easier for me to understand. Lets get straight into an example shall we?
+    </p>
+    <p>
+      Here is and example of an animal class for any type of animal
+</p>
+<p>
+class Animal
+</p>
+<p>
+attr_reader :type, :age, :color
+</p>
+<p>
+  def initialize(type, age, color)
+</p>
+<p>
+    @type = type
+</p>
+<p>
+    @age = age
+</p>
+<p>
+    @color = color
+</p>
+<p>
+end
+</p>
+<p>
+def hello
+</p>
+<p>
+  puts “hello I’m a #{@type} and my color is #{@color} and I am #{@age} years old”
+</p>
+<p>
+end
+</p>
+<p>
+def grow(years)
+</p>
+<p>
+  @age += years
+</p>
+<p>
+  end
+</p>
+<p>
+def change(fur_color)
+</p>
+<p>
+  if @age > 7
+</p>
+<p>
+    @color = fur_color
+</p>
+<p>
+  end
+</p>
+<p>
+end
+</p>
+<p>
+end
+</p>
+<p>
+This is an example of an animal class that will take in age color and type of animal it is. If I wanted to make a new instance of this class I would call it like this
+<p>
+dog = Animal.new(chow, 4, black)
+</p>
+<p>
+this would set my variables up in the initialize method to their respective spaces. If I wanted to call on hello I would do this:
+
+dog.hello and it would print out the sentence in the quotes with the variables for the dog instance.
+
+Now all of the variables so far are called instance variables. They are instances of the class Animal and I could make new ones by creating a new class like this.
+</p>
+<p>
+cat = Animal.new(cat, 8, black)
+</p>
+<p>
+I just made a new animal and for this instance my type, age and color variables would change to these. Instance variables are really nice because we can assign them new values, but also keep them separate from others and they are denoted with the @ symbol. This is so we or the computer don’t get screwed up on what we are doing. Instance variables are also able to be seen within our class animal, as you can see I have my @age in a couple different spots in the class. I need these to be flexible and move where I need them. Any variable that I want to be flexible in a class I need to make it an instance variable. Unlike the local variable years and  fur_color. If I tried putting these anywhere else in the program I would get an error telling me no, and that’s no fun, so I need to abide by the laws of the program.
+
+    </p>
+    <p>
+      There is a lot more to classes and everything about them that I am still learning, but this is the basics that I have learned and I am glad to show them to you!!  I hope everything is going well for all of you and strive to learn something new everyday! Talk to you again soon, Cody.
+    </p>
+    <div id="footer"> 
+      <div id="links">
+        <ul>
+        <li><a href="mailto:cody.kendall21@gmail.com">contact</a> </li> 
+        <li><a href="#">projects</a></li> 
+        <li><a href="https://github.com/whitendn">github</a></li>
+        <li><a href="https://www.linkedin.com/in/cody-kendall-a733043b
+        ">linkedin</a></li>
+        </ul>
+      </div>
+    </div>
+</body>
