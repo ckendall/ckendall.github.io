@@ -1,95 +1,99 @@
 body{
-	background-color: gray;
+	background-color: #F2F2F2
 }
 
 #header {
-
-	background-color: green;
-
+	padding: 15px;
+	background-color: #1E4099;
 }
 
-h2{
-	font-family: Verdana;
-	font-style: italic;
-	text-align: center;
-	color: white;
-	margin-top: -15px
-}
 
 #navigation {
 	text-align: center;
 	
 }
 
+.about_me p {
+	text-align: center;
+	font-size: 20px;
+}
+.about_me {
+	text-align: center;
+}
 p {
 	text-align: center;
 	font-weight: bold;
-	color: white;
+	color: black;
+}
+
+.snow img{
+	border: 0px;
+	border-radius: 50%;
+	padding-top: 5px;
+	height: 230px;
 }
 
 img {
-	border: solid black 3px;
+	border: solid black 1px;
+	border-radius: 40%;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	height: 210px;
+	width: 290px;
 }
 
 #navigation ul {
 	text-align: center;
 	padding: 5px;
 
+
 }
 
 #navigation li {
 	display: inline-block;
 	color: white;
-	border: 3px solid black;
+	margin-right: 30px;
 }
 
 #footer {
 	clear: both;
-	background-color: green;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #1E4099;
 }
 
 #links li{
-	border: 3px solid black;
 	display: inline-block;
+	margin-right: 30px;
 }
+
 
 a {
 	color: white;
+	font-size: 26px;
 }
 a:hover {
-	font-size: 14;
 	font-family: Verdana;
 }
 
 #links ul {
 	text-align: center;
-	padding: 5px;
+	padding: 20px;
 }
 
-.left {
+.content {
 	text-align: center;
 }
 
-.left p {
-	color: white;
-
+.content p {
+	color: black;
+	font-size: 30px;
 }
 
-.middle {
-	text-align: center;
-}
-
-.middle p {
-	color: white;
-	margin-top: -3px;
-}
-
-.right {
-	text-align: center;
-	margin-top: -3px;
-}
-
-.right p {
-	color: white;
-	margin-top: -3px;
+#links img{
+	border-color: #1E4099;
+	border-radius: 0%;
+	height: 30px;
+	width: 30px;
+	box-shadow: 0px 0px;
 }

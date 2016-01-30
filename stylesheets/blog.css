@@ -1,20 +1,30 @@
-body {
-	color: red;
+
+#navigation a{
+	color: white;
+}
+
+#footer a{
+	color: white;
 }
 
 h1{
 	font-family: Verdana;
 	font-style: italic;
 	text-align: center;
-	color: white;
+	color: black;
 	margin-right: 5em;
+}
+
+h2 {
+	color: black;
+	text-align: center;
 }
 
 h3{
 	font-family: Verdana;
 	font-style: italic;
 	text-align: center;
-	color: white;
+	color: black;
 	margin-right: 10em;
 }
 
@@ -22,22 +32,51 @@ h3{
 	margin-right: 7em;
 }
 
+.code{
+	background-color: #aaaaaa;
+	font-family: Verdana;
+	font-weight: bold;
+}
 
-p {
+.code p{
+	font-family: Verdana;
+}
+
+a{
+	color: black;
+}
+
+.blog{
+	width: 88%;
 	float: right;
-	width: 80%;
+}
+
+.blog p{
+	text-align: left;
 }
 
 .blog-left {
-	
 	float: left;
 	width: 10%;
-
 }
 
 .blog-left li {
 	padding: 0.1px;
 
+}
+
+.blog-left a {
+	font-size: 14px;
+}
+
+.temp-blog-left{
+	font-size: 40px;
+}
+
+#footer {
+	position: relative;
+	bottom: 0;
+	clear: both;
 }
 
 
