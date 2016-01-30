@@ -66,7 +66,12 @@ img {
 	display: inline-block;
 	margin-right: 30px;
 }
+
 span{
+	color: black;
+}
+
+.cheat a{
 	color: black;
 }
 
